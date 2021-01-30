@@ -17,6 +17,9 @@
 $(call inherit-product, device/sony/sumire/full_sumire.mk)
 
 # Inherit some common LineageOS stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_sumire
+PRODUCT_NAME := aosp_sumire
+
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64

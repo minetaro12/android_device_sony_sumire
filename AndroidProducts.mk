@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_sumire.mk
+    $(LOCAL_DIR)/aosp_sumire.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_sumire-user \
-    lineage_sumire-userdebug \
-    lineage_sumire-eng
+    aosp_sumire-user \
+    aosp_sumire-userdebug \
+    aosp_sumire-eng
